@@ -9,7 +9,15 @@ class Body {
 	public String name;
 	public Body orbits;
 	
+	// Static variables do NOT go with objects, but rather with classes
 	public static long nextID = 0;
+
+// Above this line is the data
+/* ------------------------------------------------------------------------ */
+// Below this line is the behavior
+
+	// A method that has the same name as the class is called 
+	// a constructor
 
 	// Constructors (two of them here; there could be more)
 	Body() {
