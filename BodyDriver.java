@@ -1,3 +1,8 @@
+/*
+	BodyDriver: a class to demonstrate and manipulate Body objects
+	code from book typed in by Brian Capouch
+	11 February 2015
+								*/
 public class BodyDriver {
   public static void main(String[] args) {
 	Body sun = new Body();

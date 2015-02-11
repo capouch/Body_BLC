@@ -2,6 +2,8 @@
 // Code from page 42 
 // Class name Body
 
+// Additional code from book typed in by BLC 11 Feb 2015
+
 class Body {
 	public long idNum;
 	public String name;
