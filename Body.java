@@ -24,11 +24,17 @@ class Body {
 	   idNum = nextID++;
 	   }
 	
-	Body(String bodyName, Body orbitsAround) {
-	   this();
-	   name = bodyName;
-	   orbits = orbitsAround;
-	   }
+	 Body(String bodyName, Body orbitsAround) {
+	  this();
+	  name = bodyName;
+	  orbits = orbitsAround;
+	  }
+
+	Body(String bodyName) {
+	  this();
+	  orbits = null;
+	  name = bodyName;
+	  }
 
 	// Most classes will need a toString() so we can visualize the object
 	public String toString() {
