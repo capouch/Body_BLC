@@ -11,6 +11,8 @@ class Body {
 	
 	// Static variables do NOT go with objects, but rather with classes
 	public static long nextID = 0;
+	// Here is a final or constant data member
+	public final double PI = 3.1416;
 
 // Above this line is the data
 /* ------------------------------------------------------------------------ */
@@ -20,16 +22,19 @@ class Body {
 	// a constructor
 
 	// Constructors (two of them here; there could be more)
+	// C1
 	Body() {
 	   idNum = nextID++;
 	   }
 	
+	 // C2
 	 Body(String bodyName, Body orbitsAround) {
 	  this();
 	  name = bodyName;
 	  orbits = orbitsAround;
 	  }
 
+	// C3
 	Body(String bodyName) {
 	  this();
 	  orbits = null;
