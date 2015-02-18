@@ -15,7 +15,7 @@ public class BodyDriver {
 	// This uses the second constructor, two parameters
 	Body earth = new Body("Earth", sun);
 	// earth.idNum = Body.nextID++;
-	earth.orbits = sun;
+	// earth.orbits = sun;
 	System.out.println(earth.toString());
 	
 	// This uses the third constructor, one parameterr
