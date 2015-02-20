@@ -28,7 +28,7 @@ class Body {
 	   }
 	
 	 // C2
-	 Body(String bodyName, Body orbitsAround) {
+	 Body(Body orbitsAround, String bodyName) {
 	  this();
 	  name = bodyName;
 	  orbits = orbitsAround;
@@ -48,6 +48,11 @@ class Body {
 		desc += " orbits " + orbits.toString();
 	   return desc;
 	   }
+	
+	public String toString(String arg) {
+	    System.out.println("This is dumb: " + arg); 
+		return "Hello";
+	     }
 
 }
 

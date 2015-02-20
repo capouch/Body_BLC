@@ -10,10 +10,10 @@ public class BodyDriver {
 	// sun.idNum = Body.nextID++;
 	sun.name = "Sol";
 	sun.orbits = null; // Sun don't orbit nobody
-	System.out.println(sun.toString());
+	System.out.println(sun.toString("Hi mom"));
 
 	// This uses the second constructor, two parameters
-	Body earth = new Body("Earth", sun);
+	Body earth = new Body(sun,"Earth");
 	// earth.idNum = Body.nextID++;
 	// earth.orbits = sun;
 	System.out.println(earth.toString());
